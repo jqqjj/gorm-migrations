@@ -8,7 +8,7 @@ var (
 	setups []Migrator
 )
 
-func AddSetups(setup ...Migrator) {
+func AddMigrators(setup ...Migrator) {
 	setups = append(setups, setup...)
 }
 
